@@ -23,7 +23,7 @@ class _homepageState extends State<homepage> {
         leading: Builder(builder: (context) {
           return ElevatedButton(
             onPressed: () {
-              Scaffold.of(context).openDrawer();
+              Scaffold.of(context).openDrawer(); //open drawer in scaffold
             },
             child: Icon(
               Icons.close,
